@@ -10,16 +10,16 @@
 int main(void)
 
 {
-	char charType;
-	int intType;
-	long int longintType;
-        long long int llintType;
-	float floatType;
-	printf("Size of a char: %d bytes(s)\n", sizeof(charType));
-	printf("Size of an int: %d bytes(s)\n", sizeof(intType));
-	printf("Size of a long int: %d bytes(s)\n", sizeof(longintType));
-	printf("Size of a long long int: %d bytes(s)\n", sizeof(llintType));
-	printf("Size of a float: %d bytes(s)\n", sizeof(floatType));
+	char charM;
+	int intN;
+	long int longL;
+        long long int longLL;
+	float floatN;
+	printf("Size of a char: %d bytes(s)\n", sizeof(charM));
+	printf("Size of an int: %d bytes(s)\n", sizeof(intN));
+	printf("Size of a long int: %d bytes(s)\n", sizeof(longL));
+	printf("Size of a long long int: %d bytes(s)\n", sizeof(longLL));
+	printf("Size of a float: %d bytes(s)\n", sizeof(floatN));
 	return (0);
 }
 6-size.c (END) 
