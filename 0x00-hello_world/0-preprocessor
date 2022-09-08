@@ -1,2 +1,2 @@
 #!/bin/bash
-#cho "Hello, World"
+export CFILE=0-main.c ;  
