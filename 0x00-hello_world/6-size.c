@@ -17,3 +17,4 @@ int main(void)
 	printf("Size of a float: %d bytes(s)\n", sizeof(floatType));
 	return (0);
 }
+6-size.c (END) 
