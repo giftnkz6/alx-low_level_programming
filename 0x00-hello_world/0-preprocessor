@@ -1,2 +1,2 @@
 #!bin/bash
-#cho "Hello, World"
+gcc -E $CFILE -o c
