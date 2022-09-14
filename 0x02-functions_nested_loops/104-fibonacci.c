@@ -20,11 +20,11 @@ int main(void)
 		a = b;
 		b = c;
 
+
 		if (i < 98)
-		{
 			printf(", ");
-		}
 	}
 	printf("\n");
+
 	return (0);
 }
