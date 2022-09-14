@@ -11,6 +11,7 @@ int main(void)
 {
 	int a;
 	char c[] = "_putchar";
+
 	for (a = 0; a < 9; a++)
 	{
 		putchar(c[a]);
