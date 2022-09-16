@@ -8,32 +8,24 @@
  */
 int main(void)
 {
-	long maxprime, i;
-	unsigned long n = 612852475143;
+	long number = 612852475143;
+	int inc;
 
-	while (n % 2 == 0)
+	while (inc++ < number / 2)
 	{
-		n = n / 2;
-	}
-	for (i = 3; i < sqrt(n); i += 2)
+	if (number % inc == 0)
 	{
-		while (n % i == 0)
-		{
-			maxprime = i;
-			n = n / i;
-		}
+		number /= 2;
+		continue;
 	}
-	if (n > 2)
-	{
-		maxprime = n;
-	}
-	else
-	{
-		maxprime = 2;
-	}
-	
-	printf("%lu\n", maxprime);
 
+	for (inc = 3; inc < number / 2; inc += 2)
+	{
+		if (number % inc == 0)
+			number /= inc;
+
+	}
+	}
+	printf("%ld\n", number);
 	return (0);
-
 }
