@@ -9,8 +9,6 @@
 int main(void)
 {
 	long maxprime, i;
-
-
 	unsigned long n = 612852475143;
 
 	while (n % 2 == 0)
@@ -26,9 +24,13 @@ int main(void)
 		}
 	}
 	if (n > 2)
+	{
 		maxprime = n;
+	}
 	else
+	{
 		maxprime = 2;
+	}
 	
 	printf("%lu\n", maxprime);
 
